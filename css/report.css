@@ -1,0 +1,133 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(217, 217, 217);
+    height: 100%;
+    width: 100%;
+}
+
+section{
+    margin-top: 100px;
+}
+
+
+section .top{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 1px solid rgb(105, 105, 105);
+    width: 1690px;
+    height: 68px;
+    width: 90%;
+    margin: auto;
+}
+section .top button{
+    color: white;
+    background-color: green;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.top-sec-left, .top-sec-right{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.top-sec-left h2{
+    font-weight: 700;
+}
+.important{
+    width: 50%;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin: auto;
+    overflow-x: hidden;
+    padding: 15px;
+    margin-top: 50px;
+}
+.one_cont{
+    border-bottom: 1px solid rgb(105, 105, 105);
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.one_cont img{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.one_cont a{
+    text-decoration: none;
+}
+
+.one_cont a h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 !important;
+}
+.important p{
+    font-size: 14px;
+    margin:  0 !important;
+}
+header{
+    height: 107px;
+    width: 1440px;
+}
+
+/* Footer */
+
+
+footer{
+    margin-top: 50px;
+    border-top: 1px solid #B6B6B6;
+    background: transparent;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-height: 1150px;
+    margin: auto;
+}
+
+.footer p{
+    margin: 0 !important;
+    padding: 24px;
+    color: #6A6A6A;
+}
+
+.footer p a{
+    color: #909090;
+    text-decoration: none;
+}
+
+@media(max-width: 700px){
+
+    .important{
+        width: 80%;
+    }
+
+    .one_cont {
+        height: auto;
+        padding: 15px;
+    }
+
+    .important .one_cont h3{
+        font-size: 16px;
+    }
+
+}
+
